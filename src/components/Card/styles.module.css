@@ -1,0 +1,28 @@
+.main{
+    height: 90vh;
+    width: 320px;
+    background-color: #e5e5e5;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr{
+    width: 320px;
+    border-top: none;
+    border-color: rgb(47, 109, 245);
+}
+
+.btn_container{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+

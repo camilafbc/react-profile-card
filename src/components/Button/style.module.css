@@ -1,0 +1,18 @@
+.btn{
+    text-decoration: none;
+    border: none;
+    width: 200px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #e5e5e5;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    background-image: linear-gradient(rgb(47, 109, 245), rgb(138, 169, 238));
+}
+
+.btn:hover{
+    margin-left: 8px;
+    transition: 0.4s;
+}
