@@ -11,10 +11,9 @@
     align-items: center;
 }
 
-hr{
-    width: 320px;
-    border-top: none;
-    border-color: rgb(47, 109, 245);
+img{
+    width: 120px;
+    border-radius: 50%;
 }
 
 .btn_container{

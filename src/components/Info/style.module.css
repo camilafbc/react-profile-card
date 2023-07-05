@@ -1,5 +1,12 @@
-.text{
-    text-align: center;
+
+
+.text {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
     font-size: 1rem;
+    border-top: 1px solid rgb(47, 109, 245);
 }
 

@@ -1,9 +1,11 @@
 import style from "./style.module.css";
 
-function Info ({ textContent }){
+function Info ({ children }){
     return (
         <>
-            <p className={style.text}>{textContent}</p>
+            <div className={style.text}>
+                {children}
+            </div>
         </>
     )
 }

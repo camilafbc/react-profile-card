@@ -1,9 +1,11 @@
 import styles from "./styles.module.css";
 
-function Name({name}){
+function Name({ children }){
     return (
         <>
-            <h2>{name}</h2>
+            <h2>
+                { children }
+            </h2>
         </>
     )
 }
