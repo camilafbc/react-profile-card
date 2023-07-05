@@ -1,10 +1,13 @@
 import style from "./style.module.css";
 
-function Info ({ children }){
+function Info (props){
     return (
         <>
-            <div className={style.text}>
-                {children}
+            <div 
+                {...props}
+                className={`${style.text} ${props.className}`}
+            >
+                {props.children}
             </div>
         </>
     )

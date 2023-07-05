@@ -11,6 +11,9 @@ function App() {
       bio="Frontend Developer"
       telefone="+5535990000000"
       email="camilafernanda914@gmail.com"
+      GitHubURL="https://github.com/camilafbc"
+      LinkedInURL="https://www.linkedin.com/in/camilafbcoelho/"
+      InstaURL="https://instagram.com/camilafbc"
       />
     </>
   )

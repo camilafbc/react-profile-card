@@ -1,9 +1,11 @@
 import style from "./style.module.css";
 
-function Button({ textAncora, ancora}){
+function Button({children, href}){
     return (
         <>
-            <a className={style.btn} href={ancora} target="_blank">{textAncora}</a>
+            <a className={style.btn} href={href} target="_blank">
+                {children}
+            </a>
         </>
     )
 }
