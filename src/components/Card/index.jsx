@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styles from "./styles.module.css";
 import Name from "../Name";
 import Info from "../Info";
@@ -13,6 +14,9 @@ function Card({
   LinkedInURL,
   InstaURL,
 }) {
+
+  const [buttonText, setButtonText] = useState("Follow")
+
   return (
     <>
       <main className={styles.main}>
@@ -20,9 +24,9 @@ function Card({
         <Name>
           <span>{name}</span>
           <button
-            onClick={() => alert("Seguindo Usuário!")}
+            onClick={() => { alert("Seguindo Usuário!"); setButtonText("Following")}}
           >
-            Follow
+            {buttonText}
           </button>
         </Name>
         <Info>{bio}</Info>
