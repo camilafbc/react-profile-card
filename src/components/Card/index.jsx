@@ -24,7 +24,7 @@ function Card({
         <Name>
           <span>{name}</span>
           <button
-            onClick={() => { alert("Seguindo Usuário!"); setButtonText("Following")}}
+            onClick={() => setButtonText("Following")}
           >
             {buttonText}
           </button>
